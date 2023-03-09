@@ -13,6 +13,11 @@ dotnet_diagnostic.CA5395.severity = suggestion
 
 # CA1510: Use 'ArgumentNullException.ThrowIfNull' instead of explicitly throwing a new exception instance
 dotnet_diagnostic.S1186.severity = suggestion 
+dotnet_diagnostic.CA1848.severity = suggestion 
+dotnet_diagnostic.CA1031.severity = suggestion 
+dotnet_diagnostic.CA1852.severity = suggestion 
+dotnet_diagnostic.CA1002.severity = suggestion 
+dotnet_diagnostic.CA1506.severity = suggestion 
 dotnet_diagnostic.MA0065.severity = suggestion 
 dotnet_diagnostic.CA1848.severity = suggestion 
 dotnet_diagnostic.S1075.severity = suggestion 

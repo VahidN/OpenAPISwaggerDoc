@@ -52,9 +52,9 @@ public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSc
             _failReason = "Invalid username or password";
             return Task.FromResult(AuthenticateResult.Fail(_failReason));
         }
-        catch
+        catch (Exception ex)
         {
-            _failReason = "Invalid Authorization header";
+            _failReason = $"Invalid Authorization header: {ex.Message}";
             return Task.FromResult(AuthenticateResult.Fail(_failReason));
         }
     }

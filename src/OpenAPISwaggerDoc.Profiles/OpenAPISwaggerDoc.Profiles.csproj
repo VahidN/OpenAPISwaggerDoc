@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\OpenAPISwaggerDoc.Entities\OpenAPISwaggerDoc.Entities.csproj"/>
+        <ProjectReference Include="..\OpenAPISwaggerDoc.Models\OpenAPISwaggerDoc.Models.csproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="AutoMapper"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection"/>
+    </ItemGroup>
+</Project>

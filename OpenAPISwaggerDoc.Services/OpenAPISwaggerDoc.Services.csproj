@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAPISwaggerDoc.DataLayer\OpenAPISwaggerDoc.DataLayer.csproj" />
+    <ProjectReference Include="..\OpenAPISwaggerDoc.Entities\OpenAPISwaggerDoc.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+</Project>
